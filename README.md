@@ -13,10 +13,10 @@ This project is interpreted/tested on Ubuntu 14.04 LTS using python3 (version 3.
 
 ## Setup
 run:
-*   [git clone](https://www.github.com/vin-ice/hng_internship/0x02-stage_two.git)
+*   [git clone](https://www.github.com/vin-ice/hng_stage_two.git)
 *   `cd 0x02-stage_two`
 *   `python -m venv venv && source venv/bin/activate`
-*   `source ./.env`
+*   `source ./.env
 *   `pip installl -r requirements.txt`
 *   `cat db_dev.sql | mysql -u <user> -p <password>`
 
