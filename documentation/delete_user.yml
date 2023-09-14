@@ -1,0 +1,14 @@
+Delete user
+---
+tags:
+  - User
+parameters:
+  - name: user_id
+    in: path
+    required: true
+    type: string
+responses:
+  404:
+    description: 'User not found!'
+  200:
+    description: success

@@ -1,0 +1,20 @@
+Updates user info given the id
+---
+tags:
+  - User
+parameters:
+  - name: user_id
+    in: path
+    required: true
+    type: string
+  - name: update_request
+    in: body
+    type: object
+    required: true
+responses:
+  404:
+    description: resources not found!
+  404:
+    description: Not a JSON
+  200:
+    description: success

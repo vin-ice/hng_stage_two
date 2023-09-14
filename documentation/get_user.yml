@@ -1,0 +1,25 @@
+Retrieves user information
+---
+tags:
+  - User
+parameters:
+  - name: user_id
+    in: path
+    type: string
+    required: true
+    description: id of a user
+responses:
+    404:
+      description: User Not Found
+    200:
+      description: success
+      schema:
+        id: User
+        properties:
+          name:
+            type: string
+            description: Name of user
+          id: 
+            type: integer
+            description: Id of user
+

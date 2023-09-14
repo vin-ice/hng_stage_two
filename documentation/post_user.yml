@@ -1,0 +1,19 @@
+Creates a user and saves their data
+---
+tags:
+  - User
+parameters:
+  - name: name
+    in: body
+    required: true
+    type: string
+  - name: value
+    in: body
+    required: true
+    type: string
+    descripition: description of user
+responses:
+  400:
+    description: Not a JSON
+  201:
+    description: success
